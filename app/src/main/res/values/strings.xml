@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">kabisa</string>
+    <string name="app_name">Kabisa</string>
+    <string name="navigation_drawer_open">Ouvrire navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
+    <string name="action_settings">Langues</string>
+    <string name="profil">Utulisateur</string>
+    <string name="login">Login</string>
+    <string name="nav_paramettre">Paramettre</string>
+    <string name="bonjour_utulisateur">Bonjour, l\'utulisateur</string>
+    <string name="kabisa">KABISA</string>
+    <string name="chercher">Chercher</string>
+    <string name="base_de_donn_es">Base de données</string>
+    <string name="autre_liste_4">Autre liste (4)</string>
+    <string name="autre_liste_10">Veuillez choisir un des examens(10)</string>
+    <string name="consultation">Consultation</string>
+    <string name="_4_heures_20_minutes">4 Heures, 20 Minutes</string>
+    <string name="consultation_a_la_carte">Consultation a la carte</string>
+    <string name="registre">Créer un compte</string>
+    <string name="email">Email</string>
+    <string name="mot_de_pass">Mot de pass</string>
+    <string name="mot_de_pass_conf">Mot de pass confirme</string>
+    <string name="incrire_">Je m\'inscris et j\'accepte</string>
+    <string name="se_souviez_de_moi">Se souviez de moi</string>
+    <string name="_inferieur">Mot de passe est inferieur à 8</string>
+    <string name="_encarat_mail">Incorrect en email</string>
+    <string name="exercices_avec_images">Exercices avec images</string>
+    <string name="fermer_l_application">Fermer l\'application</string>
+    <string name="cr_er_un_compte_d_utulisatur">Créer un compte d\'utulisatur</string>
+    <string name="enregistre">Bien enregistre</string>
+    <string name="pref_file_key">pref_file_key</string>
+    <string name="pref_is_user_login">isuserlogin</string>
+    <string name="pref_name_of_user">nameofuser</string>
 </resources>

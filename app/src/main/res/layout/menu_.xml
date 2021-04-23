@@ -1,0 +1,257 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bonjour_utulisateur"
+            android:textColor="#fff"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kabisa"
+            android:textColor="#fff"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20sp"
+            android:layout_below="@id/hello"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="80.9dp"
+            android:shadowRadius="50"
+            android:layout_height="80.9dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_account_circle"/>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_search_img"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/txt_recherche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/chercher"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginLeft="42.9dp"
+                android:layout_marginRight="40.9dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:background="@android:color/transparent"
+                android:textColorHint="#D75A4A"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_arrow_bottom"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="230dp"
+                android:src="@drawable/backend"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diagnostics"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="30.9dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200+ Diagnostics"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="60dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="230dp"
+                android:src="@drawable/frontend"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/base_de_donn_es"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30.9dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200+ Données"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="60dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autre_liste_4"
+            android:textColor="#D75A4A"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
+            android:layout_marginLeft="23dp"/>
+
+        <ImageView
+            android:id="@+id/next_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="250dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/stethoscope"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultation"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_heures_20_minutes"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv2"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/id_card"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultation_a_la_carte"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_heures_20_minutes"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

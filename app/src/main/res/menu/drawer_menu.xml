@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+    </group>
+    <item
+        android:title="Utulisateur">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:title="@string/profil" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_admin"
+                android:title="@string/login" />
+        </menu>
+    </item>
+    <item
+        android:title="Ajout de diagnostiques">
+        <menu>
+            <item
+                android:id="@+id/nav_ajout"
+                android:title="Ajout des arguments"
+                android:icon="@drawable/ic_settings"
+                />
+            <item
+                android:id="@+id/nav_galery"
+                android:title="Dossier des images"
+                android:icon="@drawable/ic_folder"
+                />
+        </menu>
+
+    </item>
+    <item
+        android:title="Commentaire">
+        <menu>
+            <item
+                android:title="@string/nav_paramettre"
+                android:icon="@drawable/ic_settings"
+                android:id="@+id/nav_parametre"
+                />
+            <item
+                android:id="@+id/nav_suggestion"
+                android:title="Suggestion sur l\'application"
+                android:icon="@drawable/ic_mail_outline"
+                />
+            <item
+                android:id="@+id/nav_helper"
+                android:title="helper"
+                android:icon="@drawable/ic_helper"
+                />
+            <item
+                android:id="@+id/nav_exit"
+                android:title="@string/fermer_l_application"
+                android:icon="@drawable/ic_exit"
+                />
+        </menu>
+
+    </item>
+</menu>
