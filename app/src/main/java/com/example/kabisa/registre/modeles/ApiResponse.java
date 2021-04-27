@@ -3,11 +3,11 @@ package com.example.kabisa.registre.modeles;
 import com.google.gson.annotations.SerializedName;
 
 public class ApiResponse {
-    @SerializedName("status")
+    @SerializedName("profile")
     private String status;
-    @SerializedName("result_code")
+    @SerializedName("resultat_du_code")
     private int resultCode;
-    @SerializedName("name")
+    @SerializedName("nom")
     private String name;
 
     public String getStatus() {

@@ -58,7 +58,7 @@ public class Login extends Fragment {
         if (appConfig.isUserLogin()){
             String email = appConfig.getNaneOfUser();
             Intent intent = new Intent(getContext(), Menu.class);
-            intent.putExtra("email",email);
+            intent.putExtra(getString(R.string._email),email);
             //finich();
         }
         _checkBox = view.findViewById(R.id.cheking_user);
@@ -91,16 +91,16 @@ public class Login extends Fragment {
             transaction.commit();
         });
         img_gl.setOnClickListener(v-> {
-            Toast.makeText(getActivity(), "Google", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string._google, Toast.LENGTH_SHORT).show();
         });
         img_tw.setOnClickListener(v-> {
-            Toast.makeText(getActivity(), "Twitter", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string._twitter, Toast.LENGTH_SHORT).show();
         });
         img_lk.setOnClickListener(v-> {
-            Toast.makeText(getActivity(), "LinkendIn", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string._linke, Toast.LENGTH_SHORT).show();
         });
         img_fb.setOnClickListener(v-> {
-            Toast.makeText(getActivity(), "Facebook", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string._fb, Toast.LENGTH_SHORT).show();
         });
         return view;
     }

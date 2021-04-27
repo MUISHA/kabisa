@@ -11,64 +11,64 @@
             <item
                 android:id="@+id/fr"
                 android:title="Français"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/france"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/egl"
                 android:title="English"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/united_kingdom"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/it"
                 android:title="Italiano"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/italy"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/nd"
                 android:title="Nederlands"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/netherlands"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/Ds"
                 android:title="Deutsch"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/germany"
                 />
             <item
                 android:id="@+id/prt"
                 android:title="Postugues"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/portugal"
                 />
             <item
                 android:id="@+id/spg"
                 android:title="Espanol"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/spain"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/jpn"
                 android:title="Japanus"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/japan"
                 app:showAsAction="never"
                 />
             <item
                 android:title="Russia"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/russia"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/arb"
                 android:title="Arabia"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/saudi_arabia"
                 app:showAsAction="never"
                 />
             <item
                 android:id="@+id/pak"
                 android:title="Pakistan"
-                android:icon="@drawable/ic_more"
+                android:icon="@drawable/pakistan"
                 app:showAsAction="never"
                 />
         </menu>

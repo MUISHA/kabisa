@@ -30,6 +30,6 @@ public class AppConfig {
    public String getNaneOfUser(){
         return sharedPreferences.getString(context.getString(
                 R.string.pref_name_of_user
-        ),"Unknown");
+        ),context.getString(R.string._nconnue));
    }
 }

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Menu");
+        toolbar.setTitle(R.string._menu);
         setSupportActionBar(toolbar);
 
         drawer = findViewById(R.id.drawer_layout);
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Autre_lit()).commit();
                 //Toolbar toolbar = findViewById(R.id.toolbar);
-                toolbar.setTitle("Autes liste");
+                toolbar.setTitle(R.string._overlist);
                // setSupportActionBar(toolbar);
                 break;
             case R.id.nav_login:
@@ -114,19 +114,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new Login()).commit();
                 break;
             case R.id.nav_galery:
-                Toast.makeText(this, "Galeery", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string._gallery, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_suggestion:
-                Toast.makeText(this, "Suggestion", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string._suggestion, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_helper:
-                Toast.makeText(this, "Helper", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string._helper, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_parametre:
-                Toast.makeText(this, "Helper", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string._about_app, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_exit:
-                Toast.makeText(this, "Exit", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string._sortir, Toast.LENGTH_SHORT).show();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);

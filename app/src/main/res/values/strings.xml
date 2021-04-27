@@ -30,4 +30,20 @@
     <string name="pref_file_key">pref_file_key</string>
     <string name="pref_is_user_login">isuserlogin</string>
     <string name="pref_name_of_user">nameofuser</string>
+    <string name="_nconnue">Inconnue</string>
+    <string name="_email">email</string>
+    <string name="_google">Google</string>
+    <string name="_twitter">Twitter</string>
+    <string name="_linke">LinkendIn</string>
+    <string name="_fb">Facebook</string>
+    <string name="_error">Erreur...</string>
+    <string name="_quel">Quelque chose s\'est mal passé ...</string>
+    <string name="_oky">Bien</string>
+    <string name="_menu">Menu</string>
+    <string name="_overlist">Autes liste</string>
+    <string name="_sortir">Sortir</string>
+    <string name="_about_app">une application de combat</string>
+    <string name="_helper">Assistante</string>
+    <string name="_suggestion">Suggestion</string>
+    <string name="_gallery">Galerie</string>
 </resources>

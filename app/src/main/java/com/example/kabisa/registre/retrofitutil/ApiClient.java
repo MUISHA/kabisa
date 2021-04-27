@@ -4,14 +4,12 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL ="10.0.2.2/base de donnees";
+    private static final String BASE_URL ="http://172.20.10.9/uconnect/retrofit";
     private static Retrofit retrofit = null;
-    public static Retrofit getApiClient()
-    {
+    public static Retrofit getApiClient(){
         retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        return retrofit;
-    }
+        return retrofit; }
 }

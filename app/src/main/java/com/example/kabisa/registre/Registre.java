@@ -80,25 +80,25 @@ public class Registre extends Fragment  {
             @Override
             public void onResponse(Call<ApiResponse> call, Response<ApiResponse> response) {
                 if (response.code() == 200){
-                    if (response.body().getStatus().equals("ok")){
+                    if (response.body().getStatus().equals(getString(R.string._oky))){
                         if (response.body().getResultCode()==1){
                             Toast.makeText(getContext(), getString(R.string.enregistre), Toast.LENGTH_SHORT).show();
                         }else {
-                            displayUserInfo("something went wrong ...");
+                            displayUserInfo(getString(R.string._quel));
                             _password_input.setText("");
                         }
                     }else {
-                        displayUserInfo("something went wrong ...");
+                        displayUserInfo(getString(R.string._quel));
                         _password_input.setText("");
                     }
                 }else {
-                    displayUserInfo("something went wrong ...");
+                    displayUserInfo(getString(R.string._quel));
                     _password_input.setText("");
                 }
             }
             @Override
             public void onFailure(Call<ApiResponse> call, Throwable t) {
-                Toast.makeText(getActivity(), "Erreur", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string._error, Toast.LENGTH_SHORT).show();
             }
         });
     }
